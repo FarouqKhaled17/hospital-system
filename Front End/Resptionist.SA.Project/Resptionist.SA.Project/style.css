@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    background-color: rgb(206, 207, 211);
+    width: 100%;
+    position: fixed; 
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #000;
+   
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover{
+    color: #fff;
+
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20;
+    padding: 100px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 340px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: black;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    text-decoration: none;
+}
+.info h3 a {
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    background-color: #fff;
+    margin: 20px auto;
+    
+   
+    
+}
+
+
+.container .title{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: blue;
+    text-align: center;
+}
+
+.container .form{
+    width: 100%;
+}
+
+.container .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input-field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.container .form .input-field .input, 
+.container .form .input-field .textarea
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.container .form .input-field .textarea{
+    resize: none;
+    height: 125px;
+}
+
+.container .form .input-field .custom-select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.container .form .input-field .custom-select .select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #d5dbd9;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.container .form .input-field .btn{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 0;
+    background: rgb(161, 165, 165);
+    cursor: pointer;
+    border-radius: 3px;
+    color: rgb(14, 84, 88);
+    outline: none;
+}
+
+.booking{
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.booking .title{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 200px;
+    color: blue;
+    text-align: center;
+}
+
+.booking .form{
+    width: 100%;
+}
+
+.booking .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.booking .form .input-field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.booking .form .input-field .input
+
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.booking .form .input-field .btn{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 0;
+    background: rgb(161, 165, 165);
+    cursor: pointer;
+    border-radius: 3px;
+    color: rgb(14, 84, 88);
+    outline: none;
+}
+
+
+.bill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height:100vh;
+   
+  }
+  
+  .bill form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .bill form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .bill form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .bill form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .bill form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .bill form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .bill form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .bill form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .bill form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .bill form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .bill form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .bill form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: rgb(70, 117, 161);
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .bill form .submit-btn:hover{
+    background: rgb(98, 98, 204);
+  }
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+
+
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: initial;
+    }
+
+    header .navigation{
+        position: absolute;
+        top:115%; right: 2rem;
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        border: var(--border);
+        background: #fff;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+    }
+
+    header .navigation.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+
+    header .navigation a{
+        font-size: 2rem;
+        display: block;
+        margin:2.5rem;
+    }
+
+}
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+.footer h2{
+    font-size: 25px;
+
+}
+
+.footer .social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .social a{
+    text-decoration: none;
+    color:rgb(18, 16, 153);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer .social a:hover i{
+    color:#000;
+    transform: translateY(-10px);
+}
+
+@media (min-width: 1200px) {
+    .footer .social a{
+        padding: 15px;
+        font-size: 30px;
+        margin: 5px;
+    }
+}
+/*end footer*/
+

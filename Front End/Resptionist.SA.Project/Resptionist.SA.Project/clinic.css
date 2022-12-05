@@ -1,0 +1,62 @@
+.pd-y{
+    padding: 60px;
+}
+
+.section-header,.portfolio,.Servies .section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-header,.portfolio .section-title {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.section-header .line , .portfolio .line,.Servies .line{
+    display: block;
+    height: 5px;
+    width: 70px;
+    background-color:#6195ff ;
+    margin:0 auto 65px auto;
+}
+.acard{
+    padding-left: 50px;
+}
+
+.patients-title{
+    text-align: center;
+    padding: 30px;
+    padding-top: 100px;
+}
+.patients-container{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.patients-container .patient{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 25rem;
+}
+
+.patients-container .patient img{
+    height:5rem;
+    margin-right: 2rem;
+}
+
+.patients-container .patient h3{
+    color:#333;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.patients-container .patient span{
+    color:#555;
+    font-size: 1.3rem;
+}
+

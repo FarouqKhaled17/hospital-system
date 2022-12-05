@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System</title>
+    <link rel="stylesheet" href="../Lab Technical/lab.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Lab Technical/css/all.min.css">
+</head>
+<body>
+   <!-- Start About -->
+   <div class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="image">
+          <img src="../Lab Technical/5096144.jpg" alt="Lab Technical" />
+        </div>
+        <div class="text">
+          <p>
+            <h1> Lab Technical</h1> 
+          </p>
+          <hr />
+          <p>
+            A Lab Technician is a professional who is involved in every aspect of laboratory work, from recording data to maintaining equipment. They're responsible for various tasks that follow strict guidelines and regulations, including protecting the accuracy and efficiency of experiments while keeping labs organized.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="line"><hr></div>
+
+
+<div class="testbox">
+    <form action="/">
+      <h1>Medical Test</h1>
+      <h4>Patient Name<span>*</span></h4>
+      <select>
+        <option class="disabled" value="location" disabled selected>*Please Select*</option>
+        <option value="1">James</option>
+        <option value="2">Dean</option>
+        <option value="3">Roberto</option>
+        <option value="4">Tarantino</option>
+        <option value="5">Johny Cash</option>
+      </select>
+      <h4>Day Visited<span>*</span></h4>
+      <div class="day-visited">
+        <input type="date" name="dayvisited" required/>
+        <i class="fas fa-calendar-alt"></i>
+      </div>
+      </div>
+      <h4>Age<span>*</span></h4>
+      <select>
+        <option class="disabled" value="location" disabled selected>*Please Select*</option>
+        <option value="under 13">Under 13</option>
+        <option value="13-17">13-17</option>
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-44">35-44</option>
+        <option value="45-54">45-54</option>
+        <option value="55 or older">55 or older</option>
+      </select>
+      <h4>Test Name<span>*</span></h4>
+      <select>
+        <option class="disabled" value="location" disabled selected>*Please Select*</option>
+        <option value="1">PCR</option>
+        <option value="2">CBC</option>
+        <option value="3">EEG</option>
+        <option value="4">ECG</option>
+        <option value="5">MRI Scan</option>
+        <option value="5">Hearing Test</option>
+        <option value="5">X-rays</option>
+      </select>
+      <h4>Health Status</h4>
+      <table>
+        <tr>
+          <th class="first-col"></th>
+          <th>Normal</th>
+          <th>Abnormal</th>
+          <th>Low</th>
+          <th>Hypertensive Crisis</th>
+        </tr>
+        <tr>
+          <td class="first-col">Blood Pressure</td>
+          <td><input type="radio" value="none" name="Blood Pressure" /></td>
+          <td><input type="radio" value="none" name="Blood Pressure" /></td>
+          <td><input type="radio" value="none" name="Blood Pressure" /></td>
+          <td><input type="radio" value="none" name="Blood Pressure" /></td>
+        </tr>
+        <tr>
+          <td class="first-col">Diabetes</td>
+          <td><input type="radio" value="none" name="Diabetes" /></td>
+          <td><input type="radio" value="none" name="Diabetes" /></td>
+          <td><input type="radio" value="none" name="Diabetes" /></td>
+          <td><input type="radio" value="none" name="Diabetes" /></td>
+        </tr>
+        <tr>
+          <td class="first-col">Heart Rate</td>
+          <td><input type="radio" value="none" name="Heart Rate" /></td>
+          <td><input type="radio" value="none" name="Heart Rate" /></td>
+          <td><input type="radio" value="none" name="Heart Rate" /></td>
+          <td><input type="radio" value="none" name="Heart Rate" /></td>
+        </tr>
+        <tr>
+          <td class="first-col">Cholesterol</td>
+          <td><input type="radio" value="none" name="Cholesterol" /></td>
+          <td><input type="radio" value="none" name="Cholesterol" /></td>
+          <td><input type="radio" value="none" name="Cholesterol" /></td>
+          <td><input type="radio" value="none" name="Cholesterol" /></td>
+        </tr>
+      </table>
+      <h4></h4>
+      <textarea rows="5"></textarea>
+      <div class="btn-block">
+        <!-- ---------------------------------------------------- -->
+        <button type="submit" href="">generate</button> 
+        <!-- ----------------------------------------------->
+      </div>
+    </form>
+  </div>
+
+<!-- --------------------------------------------------------------------- -->
+<div class="text">
+   <h1><span>O</span>ur Services</h1> 
+</div>
+<div class="container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="../Lab Technical/microscope.png" alt="Avatar" style="width:270px;height:250px;">
+      </div>
+      <div class="flip-card-back">
+        <h1 style="margin:80px">Testing</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src=" ../Lab Technical/diagnosis.png" alt="Avatar" style="width:270px;height:250px;">
+      </div>
+      <div class="flip-card-back">
+        <h1 style="margin:72px">Speed Results</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="../Lab Technical/tubes.png" alt="Avatar" style="width:270px;height:250px;">
+      </div>
+      <div class="flip-card-back">
+        <h1 style="margin:80px">Accuracy</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer -->
+<div class="footer">
+  <div class="container">
+      <h2 class="main-title">Contact Us</h2>
+      <div class="social">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+          <a href=""><i class="fas fa-phone-alt"></i></a>
+          <a href=""><i class="fab fa-twitter"></i>
+          </i></a>
+      </div>
+  </div>
+</div>
+<!-- end footer -->
+</body>
+</html>
